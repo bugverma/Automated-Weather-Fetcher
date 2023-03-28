@@ -1,4 +1,4 @@
-# Weather-Fetcher
+# Automated-Weather-Fetcher
 In this Project, we are:
 1. Fetching Weather Forecast Details from an Application that is used by our Client
 2. Adding a few important Parameters ie. Information related to Cumulative Rainfall
