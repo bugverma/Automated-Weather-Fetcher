@@ -44,9 +44,6 @@ def fetch_data():
 
     return measurements
 
-# output = fetch_data()
-# print(output)
-
 '''
 OUTPUT
 ------
