@@ -52,6 +52,7 @@ def send_mail(measurements):
     server.quit()
 
 '''
+
 send_mail({
   "currentTemp": "20.7",
   "maxTemp": "20.7",
@@ -65,4 +66,5 @@ send_mail({
   "forecastToday": "Sunny. High 67F. Winds light and variable.",
   "forecastTonight": "A clear sky. Low around 45F. Winds light and variable."
 })
+
 '''
