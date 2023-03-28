@@ -38,33 +38,3 @@ def send_message(measurements):
   f = open("./sent_message.log", "w")
   f.write(str(message.date_created))
   f.close()
-
-  '''
-  # EXAMPLE JSON RESPONSE
-
-  {
-    "account_sid": "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "api_version": "2010-04-01",
-    "body": "Revenge of the Sith was clearly the best of the prequel trilogy.",
-    "date_created": "Thu, 30 Jul 2015 20:12:31 +0000",
-    "date_sent": "Thu, 30 Jul 2015 20:12:33 +0000",
-    "date_updated": "Thu, 30 Jul 2015 20:12:33 +0000",
-    "direction": "outbound-api",
-    "error_code": null,
-    "error_message": null,
-    "from": null,
-    "messaging_service_sid": "MG9752274e9e519418a7406176694466fa",
-    "num_media": "0",
-    "num_segments": "1",
-    "price": null,
-    "price_unit": null,
-    "sid": "SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
-    "status": "sent",
-    "subresource_uris": {
-      "media": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Media.json"
-    },
-    "to": "+441632960675",
-    "uri": "/2010-04-01/Accounts/ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/Messages/SMXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.json"
-  }
-
-  '''
