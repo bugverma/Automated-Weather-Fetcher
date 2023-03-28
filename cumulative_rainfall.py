@@ -21,5 +21,3 @@ def cumulative_rainfall(rainfallToday):
 
     return str_rainfallCumulative
 
-# output = cumulative_rainfall('100')
-# print(output)
