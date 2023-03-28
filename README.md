@@ -10,6 +10,7 @@ In this Project, we are:
 2. Pip3
 3. Various Python Modules (Which can be installed using pip3)
 4. .env File with all the Important URL's & Credentials
+5. Twilio Account
 
 ## How-To-Run?
 python3 pythonFile.py
